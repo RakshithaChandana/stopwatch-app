@@ -1,0 +1,118 @@
+/* Write CSS here */
+.app-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+  min-height: 100vh;
+  background-size: cover;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+}
+.heading {
+  color: #333333;
+  font-size: 75px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.timer-container {
+  padding: 35px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 406px;
+  border-radius: 20px;
+}
+.timer-heading {
+  color: #333333;
+  font-size: 35px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-left: 12px;
+}
+.timer-image {
+  height: 30px;
+  width: 30px;
+  align-self: center;
+}
+.container {
+  display: flex;
+}
+.time {
+  color: #333333;
+  font-size: 65px;
+  font-family: 'Roboto';
+  margin-top: 0px;
+  padding-top: 0px;
+  text-align: center;
+}
+.start-button {
+  background-color: #1db05f;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: 'Roboto';
+  border-width: 0px;
+  height: 35px;
+  width: 90px;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+}
+.stop-button {
+  background-color: #ef0d36;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: 'Roboto';
+  border-width: 0px;
+  height: 35px;
+  width: 90px;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+}
+.reset-button {
+  background-color: #eaa800;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: 'Roboto';
+  border-width: 0px;
+  height: 35px;
+  width: 90px;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+}
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 768px) {
+  .app-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+    padding: 20px;
+    margin-left: 0px;
+    text-align: center;
+    height: 100vh;
+  }
+  .heading {
+    font-size: 45px;
+  }
+  .timer-container {
+    width: 100%;
+    padding: 20px;
+  }
+  .timer-heading {
+    font-size: 28px;
+  }
+  .time {
+    font-size: 42px;
+    font-weight: 500;
+  }
+}
